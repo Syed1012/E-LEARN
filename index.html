@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-LEARN | Home</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>E-LEARN</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="signin.html">Signin/Signup</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!--========================== END OF NAVBAR ============================-->
+
+    <div
+      class="wrapper-newsletter"
+      id="newsletterWrapper"
+      style="display: none"
+    >
+      <div class="header-newsletter">
+        <h1
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+        >
+          Subscribe to our News letter
+        </h1>
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+          Stay updated with the latest Courses and Discounts.
+        </p>
+      </div>
+      <form class="footer-newsletter" action="#" method="post">
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <button type="submit" class="btn-submit" style="font-size: large">
+          Subscribe
+        </button>
+
+        <button type="button" class="modal-close-btn" id="closeBtn">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </form>
+    </div>
+
+    <!--========================== END OF NEWS LETTER ============================-->
+
+    <section class="Am-img-slider-container">
+      <div class="swiper blog-slider">
+        <div class="swiper-wrapper">
+          <!-- slide -->
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img class="back-image" alt="" src="images/ML back.png" />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="images/ML front.png"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Machine Learning</h2>
+              <p class="blog-slider__text">
+                "Unlocking the future through intelligent machines: Machine
+                Learning at its best."
+              </p>
+              <span class="blog-slider__rate"> TOP RATED </span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img class="back-image" alt="" src="images/Java Bg.jpg" />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="images/java front1.jpg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">JAVA</h2>
+              <p class="blog-slider__text">
+                "Unleash the power of innovation with Java's versatile code."
+              </p>
+              <span class="blog-slider__rate"> Most Recommended </span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img class="back-image" alt="" src="images/CN bg.jpg" />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="images/CN Front.jpg"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Computer Networks</h2>
+              <p class="blog-slider__text">
+                "Connecting the world, one node at a time: Computer networks
+                building bridges of communication."
+              </p>
+              <span class="blog-slider__rate"> TOP COURSE </span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image"
+                alt=""
+                src="images/operating-system bg.jpg"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="images/operating-sys front.png"
+                />
+                <div class="overly">
+                  <a href="#" title="-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Operating Systems</h2>
+              <p class="blog-slider__text">
+                "Empowering devices, connecting worlds: Operating systems at the
+                core."
+              </p>
+              <span class="blog-slider__rate"> TOP COURSE </span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-slider__imgs">
+              <img
+                class="back-image blog-slider__backimg"
+                alt=""
+                src="images/web-development bg.png"
+              />
+              <div class="movie-image-container">
+                <img
+                  class="movie-image blog-slider__img"
+                  alt=""
+                  src="images/web development front.png"
+                />
+                <div class="overly">
+                  <a href="#" title="-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__content">
+              <h2 class="blog-slider__title">Web Development</h2>
+              <p class="blog-slider__text">
+                Lorem ipsum dolor, sit amet consm dolor, sit amet consectetur
+                adipisilo natus.ectetur adipisilo natus.
+              </p>
+              <span class="blog-slider__rate"> IN DEMAND SKILL </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--========================== END OF Slider ============================-->
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Grow your skills to andvance your career path</h1>
+          <p>
+            Invest in your future today and become a part of our vibrant
+            community of software students and professionals who are passionate
+            about continuous learning and growth. Let's unlock your full
+            potential together!
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/header.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--========================== END OF HEADER ============================-->
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            These courses encompass a wide range of knowledge and foundations,
+            providing learners with diverse opportunities to expand their skills
+            and knowledge in various areas of technology and development.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-bitcoin-circle"></i>
+            </span>
+            <h5>Blockchain</h5>
+            <p>"Decentralized trust: Blockchain revolutionizing industries."</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-palette"></i>
+            </span>
+            <h5>Graphic Design</h5>
+            <p>
+              "Visual storyteller, transforming ideas into captivating designs:
+              The Graphic Designer."
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-usd-circle"></i>
+            </span>
+            <h5>Finance</h5>
+            <p>
+              "Empowering economic decisions and growth: Finance at the heart of
+              prosperity."
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-megaphone"></i>
+            </span>
+            <h5>Marketing</h5>
+            <p>
+              "Creating connections and driving success: Marketing as the art of
+              influence."
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-music"></i>
+            </span>
+            <h5>Music</h5>
+            <p>
+              "Universal language of emotions: Music, the soul's expression."
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="uil uil-puzzle-piece"></i>
+            </span>
+            <h5>Business</h5>
+            <p>
+              "Driving innovation, growth, and value creation: Business at the
+              forefront of progress."
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--====================== END OF CATEGORIES =====================-->
+
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course1.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Web Development</h4>
+            <p>
+              Master the art of web development with our comprehensive courses.
+              Learn front-end development to create captivating user interfaces,
+              explore back-end development for server-side operations, and
+              discover full-stack development to build complete web
+              applications.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course2.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Data Science</h4>
+            <p>
+              Dive into the world of data science and analytics with our
+              sought-after courses. Learn data analysis techniques, explore
+              machine learning algorithms, and gain insights into data
+              visualization. Understand how to derive valuable insights from
+              data and make data-driven decisions.
+            </p>
+            <a href="course.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course3.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Unlock the potential of digital marketing with our popular
+              courses. Explore various online marketing channels, including
+              social media, search engine optimization (SEO), email marketing,
+              and content marketing. Acquire essential skills to create
+              effective digital marketing campaigns and strategies
+            </p>
+            <a href="course.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--====================== END OF COURSES =====================-->
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>What courses do you offer?</h4>
+            <p>
+              We offer a wide range of courses, including computer science, web
+              development, data science, graphic design, finance, marketing,
+              music, and many more. You can explore our course catalog to find
+              the subjects that interest you the most.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Who are the instructors?</h4>
+            <p>
+              Our courses are taught by experienced and knowledgeable
+              instructors who are experts in their respective fields. They bring
+              real-world industry insights and a passion for teaching to help
+              you succeed in your learning journey.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Are the courses suitable for beginners?</h4>
+            <p>
+              Yes, we offer courses suitable for learners of all levels, from
+              beginners to advanced. Whether you're just starting or looking to
+              deepen your skills, we have courses tailored to meet your needs.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I enroll in a course?</h4>
+            <p>
+              Enrolling in a course is simple. Just visit the course page, click
+              on the "Enroll" button, and follow the instructions to complete
+              the registration process.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Are the courses self-paced?</h4>
+            <p>
+              Yes, most of our courses are self-paced, allowing you to study at
+              your own convenience and set your learning schedule.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              You can contact us for any doubts regarding your career path we
+              will try to make a session with you regading your intrests.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Are there any prerequisites for specific courses?</h4>
+            <p>
+              Some courses may have prerequisites, such as prior knowledge of
+              certain concepts or skills. Check the course description for
+              specific requirements before enrolling.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Is there any certificate upon course completion?</h4>
+            <p>
+              Yes, we provide a certificate of completion for courses that offer
+              it. This certificate can be a valuable addition to your resume and
+              showcase your newly acquired skills.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Can I access the course materials after the course ends?</h4>
+            <p>
+              Yes, you'll have access to the course materials even after the
+              course ends. You can review the content and continue learning at
+              your own pace.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>Do you offer any discounts or promotions?</h4>
+            <p>
+              Yes, we periodically run promotions and offer discounts on select
+              courses. Keep an eye on our website and subscribe to our
+              newsletter to stay updated on the latest offers.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--====================== END OF FAQs =====================-->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Students' Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Trisha</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              The Marketing courses were top-notch! I learned practical
+              strategies for running successful digital marketing campaigns. The
+              instructors' expertise made a huge difference in my understanding.
+              I'll definitely come back for more courses!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar2.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Karthik</h5>
+            <small>Web Developer</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              I'm amazed by the quality of the Web Development course. The
+              content was well-structured and easy to follow. I've learned
+              valuable skills that have boosted my career opportunities. Highly
+              recommended!.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar3.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Lohit</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              The Music courses have been an absolute delight. As a beginner, I
+              was worried about learning an instrument, but the instructors'
+              guidance and patience made it enjoyable. I can now play my
+              favorite tunes on the guitar!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar4.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Jahnavi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              The Data Science & Analytics course exceeded my expectations. The
+              instructors were knowledgeable, and the hands-on projects allowed
+              me to apply what I learned. I feel confident in my data analysis
+              skills now. Thank you!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar5.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Sakshi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              I couldn't be happier with the Graphic Design course. I had zero
+              design experience, but the course covered everything from the
+              basics to advanced techniques. Now, I can create stunning visuals
+              for my projects. Thank you!
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!--====================== END OF TESTIMONIALS =====================-->
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>E-LEARN</h4></a>
+          <p>
+            Join us and embark on a transformative learning experience that will
+            empower you to reach new heights in your software development
+            journey.
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>Navigate</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+91-9908914932</p>
+            <p>suzzama@gitam.in</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; E-LEARN | Online Education Platform</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+      // slides for testimonials section
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window width is >= 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
